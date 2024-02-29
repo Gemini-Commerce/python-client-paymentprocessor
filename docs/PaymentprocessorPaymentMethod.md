@@ -1,0 +1,22 @@
+# # PaymentprocessorPaymentMethod
+
+
+## Properties 
+
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**code**| **str** |   |
+**title**| [**PaymentprocessorLocalizedText**](PaymentprocessorLocalizedText.md) |   |
+**label**| [**PaymentprocessorLocalizedText**](PaymentprocessorLocalizedText.md) |   | [optional]
+**enabled**| **bool** |   | [optional]
+**amount**| [**PaymentprocessorMoney**](PaymentprocessorMoney.md) |   | [optional]
+**currency**| [**PaymentprocessorCurrency**](PaymentprocessorCurrency.md) |  for more information please, see Model/PaymentprocessorCurrency.php  | [optional]
+**additional_info**| **str** |   | [optional]
+**is_upfront**| **bool** |   | [optional]
+**description**| [**PaymentprocessorLocalizedText**](PaymentprocessorLocalizedText.md) |   | [optional]
+**restrictions**| [**List[PaymentprocessorPaymentMethodRestriction]**](PaymentprocessorPaymentMethodRestriction.md) |   | [optional]
+
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
+

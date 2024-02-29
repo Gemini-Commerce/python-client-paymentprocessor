@@ -1,0 +1,14 @@
+# # AvailabilityContextCustomer
+
+
+## Properties 
+
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**segments**| **List[str]** |   | [optional]
+**email**| **str** |   | [optional]
+
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
+
