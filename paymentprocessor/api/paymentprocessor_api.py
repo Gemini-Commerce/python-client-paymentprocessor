@@ -321,6 +321,7 @@ class PaymentprocessorApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'Authorization'
         ]
 
         return self.api_client.param_serialize(
@@ -594,6 +595,7 @@ class PaymentprocessorApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'Authorization'
         ]
 
         return self.api_client.param_serialize(
@@ -867,6 +869,7 @@ class PaymentprocessorApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'Authorization'
         ]
 
         return self.api_client.param_serialize(
@@ -1140,6 +1143,7 @@ class PaymentprocessorApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'Authorization'
         ]
 
         return self.api_client.param_serialize(
@@ -1413,6 +1417,7 @@ class PaymentprocessorApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'Authorization'
         ]
 
         return self.api_client.param_serialize(
@@ -1686,6 +1691,7 @@ class PaymentprocessorApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'Authorization'
         ]
 
         return self.api_client.param_serialize(
@@ -1959,6 +1965,7 @@ class PaymentprocessorApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'Authorization'
         ]
 
         return self.api_client.param_serialize(
@@ -2232,6 +2239,7 @@ class PaymentprocessorApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'Authorization'
         ]
 
         return self.api_client.param_serialize(
@@ -2505,6 +2513,7 @@ class PaymentprocessorApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'Authorization'
         ]
 
         return self.api_client.param_serialize(
@@ -2778,6 +2787,7 @@ class PaymentprocessorApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'Authorization'
         ]
 
         return self.api_client.param_serialize(
@@ -3051,6 +3061,7 @@ class PaymentprocessorApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'Authorization'
         ]
 
         return self.api_client.param_serialize(
@@ -3324,6 +3335,7 @@ class PaymentprocessorApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'Authorization'
         ]
 
         return self.api_client.param_serialize(
@@ -3597,6 +3609,7 @@ class PaymentprocessorApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'Authorization'
         ]
 
         return self.api_client.param_serialize(
@@ -3870,6 +3883,7 @@ class PaymentprocessorApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'Authorization'
         ]
 
         return self.api_client.param_serialize(

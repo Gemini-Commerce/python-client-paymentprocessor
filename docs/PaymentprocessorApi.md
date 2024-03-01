@@ -27,6 +27,7 @@ Authorize Payment
 
 ### Example
 
+* Api Key Authentication (Authorization):
 
 ```python
 import time
@@ -47,6 +48,12 @@ configuration = paymentprocessor.Configuration(
 # in accordance with the API server security policy.
 # Examples for each auth method are provided below, use the example that
 # satisfies your auth use case.
+
+# Configure API key authorization: Authorization
+configuration.api_key['Authorization'] = os.environ["API_KEY"]
+
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # Enter a context with an instance of the API client
 with paymentprocessor.ApiClient(configuration) as api_client:
@@ -78,7 +85,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -103,6 +110,7 @@ Create Payment Method
 
 ### Example
 
+* Api Key Authentication (Authorization):
 
 ```python
 import time
@@ -123,6 +131,12 @@ configuration = paymentprocessor.Configuration(
 # in accordance with the API server security policy.
 # Examples for each auth method are provided below, use the example that
 # satisfies your auth use case.
+
+# Configure API key authorization: Authorization
+configuration.api_key['Authorization'] = os.environ["API_KEY"]
+
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # Enter a context with an instance of the API client
 with paymentprocessor.ApiClient(configuration) as api_client:
@@ -154,7 +168,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -179,6 +193,7 @@ Finalize Payment
 
 ### Example
 
+* Api Key Authentication (Authorization):
 
 ```python
 import time
@@ -199,6 +214,12 @@ configuration = paymentprocessor.Configuration(
 # in accordance with the API server security policy.
 # Examples for each auth method are provided below, use the example that
 # satisfies your auth use case.
+
+# Configure API key authorization: Authorization
+configuration.api_key['Authorization'] = os.environ["API_KEY"]
+
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # Enter a context with an instance of the API client
 with paymentprocessor.ApiClient(configuration) as api_client:
@@ -230,7 +251,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -255,6 +276,7 @@ Get Available Payment Method
 
 ### Example
 
+* Api Key Authentication (Authorization):
 
 ```python
 import time
@@ -275,6 +297,12 @@ configuration = paymentprocessor.Configuration(
 # in accordance with the API server security policy.
 # Examples for each auth method are provided below, use the example that
 # satisfies your auth use case.
+
+# Configure API key authorization: Authorization
+configuration.api_key['Authorization'] = os.environ["API_KEY"]
+
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # Enter a context with an instance of the API client
 with paymentprocessor.ApiClient(configuration) as api_client:
@@ -306,7 +334,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -331,6 +359,7 @@ Get Payment Method
 
 ### Example
 
+* Api Key Authentication (Authorization):
 
 ```python
 import time
@@ -351,6 +380,12 @@ configuration = paymentprocessor.Configuration(
 # in accordance with the API server security policy.
 # Examples for each auth method are provided below, use the example that
 # satisfies your auth use case.
+
+# Configure API key authorization: Authorization
+configuration.api_key['Authorization'] = os.environ["API_KEY"]
+
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # Enter a context with an instance of the API client
 with paymentprocessor.ApiClient(configuration) as api_client:
@@ -382,7 +417,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -407,6 +442,7 @@ Get Payment Method Configuration
 
 ### Example
 
+* Api Key Authentication (Authorization):
 
 ```python
 import time
@@ -427,6 +463,12 @@ configuration = paymentprocessor.Configuration(
 # in accordance with the API server security policy.
 # Examples for each auth method are provided below, use the example that
 # satisfies your auth use case.
+
+# Configure API key authorization: Authorization
+configuration.api_key['Authorization'] = os.environ["API_KEY"]
+
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # Enter a context with an instance of the API client
 with paymentprocessor.ApiClient(configuration) as api_client:
@@ -458,7 +500,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -483,6 +525,7 @@ Init Payment
 
 ### Example
 
+* Api Key Authentication (Authorization):
 
 ```python
 import time
@@ -503,6 +546,12 @@ configuration = paymentprocessor.Configuration(
 # in accordance with the API server security policy.
 # Examples for each auth method are provided below, use the example that
 # satisfies your auth use case.
+
+# Configure API key authorization: Authorization
+configuration.api_key['Authorization'] = os.environ["API_KEY"]
+
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # Enter a context with an instance of the API client
 with paymentprocessor.ApiClient(configuration) as api_client:
@@ -534,7 +583,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -559,6 +608,7 @@ List Available Payment Methods
 
 ### Example
 
+* Api Key Authentication (Authorization):
 
 ```python
 import time
@@ -579,6 +629,12 @@ configuration = paymentprocessor.Configuration(
 # in accordance with the API server security policy.
 # Examples for each auth method are provided below, use the example that
 # satisfies your auth use case.
+
+# Configure API key authorization: Authorization
+configuration.api_key['Authorization'] = os.environ["API_KEY"]
+
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # Enter a context with an instance of the API client
 with paymentprocessor.ApiClient(configuration) as api_client:
@@ -610,7 +666,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -635,6 +691,7 @@ List Payment Methods
 
 ### Example
 
+* Api Key Authentication (Authorization):
 
 ```python
 import time
@@ -655,6 +712,12 @@ configuration = paymentprocessor.Configuration(
 # in accordance with the API server security policy.
 # Examples for each auth method are provided below, use the example that
 # satisfies your auth use case.
+
+# Configure API key authorization: Authorization
+configuration.api_key['Authorization'] = os.environ["API_KEY"]
+
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # Enter a context with an instance of the API client
 with paymentprocessor.ApiClient(configuration) as api_client:
@@ -686,7 +749,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -711,6 +774,7 @@ Perform Payment
 
 ### Example
 
+* Api Key Authentication (Authorization):
 
 ```python
 import time
@@ -731,6 +795,12 @@ configuration = paymentprocessor.Configuration(
 # in accordance with the API server security policy.
 # Examples for each auth method are provided below, use the example that
 # satisfies your auth use case.
+
+# Configure API key authorization: Authorization
+configuration.api_key['Authorization'] = os.environ["API_KEY"]
+
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # Enter a context with an instance of the API client
 with paymentprocessor.ApiClient(configuration) as api_client:
@@ -762,7 +832,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -787,6 +857,7 @@ Perform Refund
 
 ### Example
 
+* Api Key Authentication (Authorization):
 
 ```python
 import time
@@ -806,6 +877,12 @@ configuration = paymentprocessor.Configuration(
 # in accordance with the API server security policy.
 # Examples for each auth method are provided below, use the example that
 # satisfies your auth use case.
+
+# Configure API key authorization: Authorization
+configuration.api_key['Authorization'] = os.environ["API_KEY"]
+
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # Enter a context with an instance of the API client
 with paymentprocessor.ApiClient(configuration) as api_client:
@@ -837,7 +914,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -862,6 +939,7 @@ Update Payment
 
 ### Example
 
+* Api Key Authentication (Authorization):
 
 ```python
 import time
@@ -881,6 +959,12 @@ configuration = paymentprocessor.Configuration(
 # in accordance with the API server security policy.
 # Examples for each auth method are provided below, use the example that
 # satisfies your auth use case.
+
+# Configure API key authorization: Authorization
+configuration.api_key['Authorization'] = os.environ["API_KEY"]
+
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # Enter a context with an instance of the API client
 with paymentprocessor.ApiClient(configuration) as api_client:
@@ -912,7 +996,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -937,6 +1021,7 @@ Update Payment Method
 
 ### Example
 
+* Api Key Authentication (Authorization):
 
 ```python
 import time
@@ -957,6 +1042,12 @@ configuration = paymentprocessor.Configuration(
 # in accordance with the API server security policy.
 # Examples for each auth method are provided below, use the example that
 # satisfies your auth use case.
+
+# Configure API key authorization: Authorization
+configuration.api_key['Authorization'] = os.environ["API_KEY"]
+
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # Enter a context with an instance of the API client
 with paymentprocessor.ApiClient(configuration) as api_client:
@@ -988,7 +1079,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1013,6 +1104,7 @@ Void Payment
 
 ### Example
 
+* Api Key Authentication (Authorization):
 
 ```python
 import time
@@ -1033,6 +1125,12 @@ configuration = paymentprocessor.Configuration(
 # in accordance with the API server security policy.
 # Examples for each auth method are provided below, use the example that
 # satisfies your auth use case.
+
+# Configure API key authorization: Authorization
+configuration.api_key['Authorization'] = os.environ["API_KEY"]
+
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # Enter a context with an instance of the API client
 with paymentprocessor.ApiClient(configuration) as api_client:
@@ -1064,7 +1162,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
